@@ -1,0 +1,35 @@
+# robots.txt for Life in Weeks AI
+# https://lifeinweeks.ai
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://lifeinweeks.ai/sitemap.xml
+
+# Crawl-delay for all bots
+Crawl-delay: 1
+
+# Disallow specific paths (if any in the future)
+# Disallow: /admin/
+# Disallow: /api/
+
+# Allow specific bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block specific bots (optional)
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Crawl-delay: 10
